@@ -193,7 +193,7 @@
     *,
     *::before,
     *::after {
-      background: #fff !important;
+      background: rgb(196, 185, 185) !important;
       color: #000 !important;
       /* Black prints faster */
       box-shadow: none !important;
@@ -228,7 +228,7 @@
   
     pre,
     blockquote {
-      border: 1px solid #999;
+      border: 1px solid rgb(180, 180, 180);
       page-break-inside: avoid;
     }
   
