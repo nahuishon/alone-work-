@@ -1,0 +1,70 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Gayathri:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+html {
+
+  font-family: 'Lato', sans-serif ;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+    box-sizing: border-box;
+  }
+  ul{
+    list-style:none;
+ }
+ a {
+   text-decoration: none;
+ }
+ 
+ 
+ nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-transform: uppercase;
+   font-weight: 100;
+   letter-spacing: 2px;
+   font-family: lato;
+   position: fixed;
+   top:1px;
+   left: 0;
+   width: 100%;
+   box-sizing: border-box;
+   padding:10px 100px;
+   background-color: #2f302f;
+   box-shadow: 2px 2px 12px rgba(0,0,0,0,30);
+   z-index: 1;
+ }
+ .menu{
+    display: flex;
+  }
+  .menu li a{
+    padding: 12px 15px;
+    color:#0a0a0a;
+    font-size: 8px;
+  }
+  .lang{
+    color:#ffffff;
+  }
+  .logo{
+    font-size: 8px;
+    font-weight: bold;
+    color:#fafdff;
+    font-family:Poppins;
+  }
+  .toggle{
+    display:none;
+  }
+  .active a,
+  .menu li a:hover{
+    background-color:#fcfafa;
+    color:#080808 !important;
+    font-weight: bold;
+    transition: all ease 0.4s;
+  }

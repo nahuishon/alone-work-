@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+        <a href="#" class="logo">Nahui Shon</a>
+            <ul>
+               <li><a href="index.html">WORK</a></li>
+               <li><a href="aboutme.html">ABOUT ME</a></li>
+               <li><a href="contact.html">contact</a></li>
+           </ul>
+    </header>
+    <section class="banner"></section>
+    <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var header= document.querySelector("header");
+        header.classList.toggle("sticky", window.scrolly >0);
+    })
+    </script>
+  </body>
+<body>
+</html>
+
+
+
+    </main>
+    <div class="content">
+      <div class="inner-width">
+        <h1></h1>
+        <div class="border"></div>
+
+        <div class="gallery">
+            <section class="grid-set">
+                
+               <li><a href="project/1/index.html"><img src="img/book mock.jpg ">type work</a></li>
+               <li><a href="project/2/index.html"><img src="img/my work 1-01.png">be happy</a></li>
+               <li><a href="project/1/index.html"><img src="img/a.png ">type work</a></li>
+               <li><a href="project/1/index.html"><img src="img/book mock.jpg ">type work</a></li>
+               <li><a href="project/1/index.html"><img src="img/book mock.jpg ">type work</a></li>
+               <li><a href="project/1/index.html"><img src="img/book mock.jpg ">type work</a></li>
+              
+  </ul>
+   </div>
+   <div class="cursor"></div>
+   <div class="cursor2"></div>
+
+  <script>
+    var cursor = document.querySelector(".cursor");
+    var cursor2 = document.querySelector(".cursor2");
+    document.addEventListener("mousemove",function(e){
+      cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+    });
+  </script>
+
+  </body>
+</html>
