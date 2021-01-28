@@ -10,11 +10,11 @@ body,html{
   margin: 0;
   padding:0;
   font-family: 'Courier New', Courier, monospace;
-   min-height: 200vh;
+   min-height: 100vh;
    cursor: pointer;
   }
  h1{
-   font-size:70px;
+   font-size:60px;
    text-transform: uppercase;
    margin:0;
  }
@@ -37,8 +37,8 @@ body,html{
     width: 45%;
     padding: 40px;
     text-align: center;
-    border-top-left-radius: 10%;
-    border-bottom-right-radius:10%;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius:30%;
     background-color: rgba(0,0,0,0.3);
     color:#fff;
     font-weight: bold;
