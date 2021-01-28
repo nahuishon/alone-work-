@@ -32,10 +32,7 @@
     text-shadow: none;
   }
   
-  ::selection {
-    background: #FFE4E1;
-    text-shadow: none;
-  }
+ 
   
   /*
    * A better looking default horizontal rule
