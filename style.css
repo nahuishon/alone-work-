@@ -17,7 +17,7 @@ body,html{
     position:fixed;
     background: rgb(97, 97, 97);
     top:-10px;
-    left:0;
+    left:10;
     width: 100%;
     display: flex;
     justify-content:space-between ;
@@ -28,15 +28,15 @@ body,html{
 header.sticky
 {
     padding:5px 10px;
-    background: rgb(253, 253, 253);
+    background: rgb(27, 27, 27);
 }
 header .logo
 {
     position: relative;
     margin-left: 30px;
     font-weight:500;
-    color:rgb(153, 149, 149);
-    text-decoration: none;
+    color:rgb(243, 237, 237);
+    text-decoration:none;
     font-size: 1em;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -59,9 +59,9 @@ header ul li a
     position: relative;
     margin:0 15px;
     text-decoration: none;
-    color:rgb(197, 182, 182);
+    color:rgb(255, 254, 254);
     letter-spacing: 1px;
-    font-weight: 500px;
+    font-weight: 300px;
     transition: 0.6s;
 }
 
@@ -77,7 +77,7 @@ header ul li a
       background-size: cover;
       background-repeat: repeat;
       background-position: center center;
-      margin-top: 70px;
+      margin-top: 50px;
       height: 100%;
       filter:blur(10px)
   }
